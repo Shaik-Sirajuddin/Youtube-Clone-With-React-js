@@ -1,3 +1,5 @@
+/** @format */
+
 import React, { Component } from "react";
 import styled from "styled-components";
 import HomeIcon from "@mui/icons-material/Home";
@@ -104,7 +106,7 @@ function Menu(props) {
       <Hr />
       <SignInWrapper>
         Sign in to like videos,
-        <br /> comment and subscribe.
+        <br /> Comment and subscribe.
         <br />
         <Link
           to="signin"
